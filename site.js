@@ -9,7 +9,7 @@ function productCard(p) {
 }
 function renderCategories() {
   const grid = el("category-grid"); if (!grid) return;
-  grid.innerHTML = CATEGORIES.map(c => `<a class="category-card" href="inventory.html?category=${encodeURIComponent(c.id)}"><span class="category-icon">${c.icon}</span><h3>${esc(c.name)}</h3><p>${esc(c.description)}</p><span class="category-arrow">Explore →</span></a>`).join("");
+  grid.innerHTML = CATEGORIES.map(c => `<a class="category-card" href="inventory.html?category=${encodeURIComponent(c.id)}"><span class="category-photo"><img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy"></span><span class="category-label"><svg class="i"><use href="#i-${esc(c.icon)}"/></svg><span>${esc(c.name)}</span><svg class="i chev"><use href="#i-chevron"/></svg></span></a>`).join("");
 }
 function renderFeatured() {
   const grid = el("featured-grid"); if (!grid) return;
@@ -58,5 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCategories(); renderFeatured(); renderInventory(); renderDetail(); setupQuoteForm();
   const year = el("year"); if (year) year.textContent = new Date().getFullYear();
   const toggle = document.querySelector(".menu-toggle"), nav = document.querySelector(".nav");
-  if (toggle && nav) toggle.addEventListener("click", () => { const open = nav.classList.toggle("open"); toggle.setAttribute("aria-expanded", String(open)); });
+  if (toggle && nav) {
+    toggle.addEventListener("click", () => { const open = nav.classList.toggle("open"); toggle.setAttribute("aria-expanded", String(open)); });
+    nav.addEventListener("click", e => { if (e.target.closest("a")) { nav.classList.remove("open"); toggle.setAttribute("aria-expanded", "false"); } });
+  }
+  // soft shadow under the header once the page is scrolled
+  const header = document.querySelector(".site-header");
+  const onScroll = () => header && header.classList.toggle("scrolled", window.scrollY > 8);
+  window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
 });

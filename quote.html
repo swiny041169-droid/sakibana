@@ -1,6 +1,56 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Request a Quotation | Sakibana</title><link rel="icon" href="assets/logo.svg"><link rel="stylesheet" href="styles.css"><script defer src="data.js"></script><script defer src="site.js"></script></head><body>
-<header class="site-header"><a class="brand" href="index.html"><img src="assets/logo.svg" alt="Sakibana"></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="inventory.html">Inventory</a><a href="about.html">About Us</a><a class="active" href="quote.html">Request a Quotation</a><a href="contact.html">Contact</a></nav><label class="language">EN</label></header>
-<main class="page narrow"><p class="eyebrow">TELL US WHAT YOU NEED</p><h1>Request a Quotation</h1><p class="intro">Complete the form below. Include the inventory reference if you are enquiring about a particular item.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Request a quotation from Sakibana.">
+  <meta name="theme-color" content="#0b2b5c">
+  <meta property="og:title" content="Request a Quotation | Sakibana"><meta property="og:description" content="Request a quotation from Sakibana."><meta property="og:type" content="website">
+  <title>Request a Quotation | Sakibana</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png"><link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script><script defer src="site.js"></script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-car" viewBox="0 0 24 24"><path d="M3.5 16.5v-3.2l1.9-5.1A1.8 1.8 0 0 1 7.1 7h9.8a1.8 1.8 0 0 1 1.7 1.2l1.9 5.1v3.2"/><path d="M3.5 13.5h17"/><path d="M3.5 16.5h17v2h-3.2a1.6 1.6 0 0 0-3.2 0h-4.2a1.6 1.6 0 0 0-3.2 0H3.5z"/><path d="M7 10.2h.01M17 10.2h.01"/></symbol>
+<symbol id="i-truck" viewBox="0 0 24 24"><path d="M2.5 6.5h11v10h-11z"/><path d="M13.5 9.5h4.2l3.3 3.3v3.7h-7.5"/><circle cx="7" cy="17.5" r="1.9"/><circle cx="17" cy="17.5" r="1.9"/></symbol>
+<symbol id="i-excavator" viewBox="0 0 24 24"><rect x="2.5" y="16" width="12.5" height="4" rx="2"/><path d="M4.5 16v-4.5h5.5l1.8 4.5"/><path d="M10.5 11.5 14 5l4.3 2.4-2.1 5.6"/><path d="m16.2 13 3.3 3.5h-4.2"/></symbol>
+<symbol id="i-tractor" viewBox="0 0 24 24"><circle cx="17" cy="15.5" r="4.2"/><circle cx="6.5" cy="17.5" r="2.5"/><path d="M9 17.5h3.8M3.5 15V9.5h6.2l2.3 3.5"/><path d="M9.7 9.5V5.5h3.3l1 5"/></symbol>
+<symbol id="i-medical" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 7.5v9M7.5 12h9"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5.5 6.5 6.5L9 18.5"/></symbol>
+<symbol id="i-caret" viewBox="0 0 24 24"><path d="m6 9.5 6 6 6-6"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h15M13.5 6l6 6-6 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M4.4 7.5h15.2M4.4 16.5h15.2"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 5.8v5.4c0 4.6 3 7.9 7 9.8 4-1.9 7-5.2 7-9.8V5.8z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></symbol>
+<symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h8.5M17 7h3M4 12h3.5M12 12h8M4 17h10M18.5 17H20"/><circle cx="14.7" cy="7" r="2.2"/><circle cx="9.7" cy="12" r="2.2"/><circle cx="16.2" cy="17" r="2.2"/></symbol>
+<symbol id="i-headset" viewBox="0 0 24 24"><path d="M4.5 14v-2.5a7.5 7.5 0 0 1 15 0V14"/><rect x="3" y="13.5" width="4" height="6" rx="1.8"/><rect x="17" y="13.5" width="4" height="6" rx="1.8"/><path d="M19 19.5c0 1.6-2.2 2-5 2"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7.5 8.5 6 8.5-6"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h3l1.4 4-2 1.3a11 11 0 0 0 5.2 5.2l1.3-2 4 1.4v3a2 2 0 0 1-2.2 2A15.5 15.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></symbol>
+</svg>
+<header class="site-header" id="top">
+  <a class="brand" href="index.html" aria-label="Sakibana — home">
+    <img class="brand-mark" src="assets/logo.png" alt="" width="62" height="58">
+    <span class="brand-text"><span class="brand-name">Sakibana</span><span class="brand-tag">Global Quality, Your Trusted Partner</span></span>
+  </a>
+  <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav"><svg class="i i-menu"><use href="#i-menu"/></svg><svg class="i i-close"><use href="#i-close"/></svg></button>
+  <nav class="nav" id="site-nav" aria-label="Main">
+    <a href="index.html">Home</a>
+    <div class="has-dropdown">
+      <a href="inventory.html">Inventory <svg class="i caret"><use href="#i-caret"/></svg></a>
+      <div class="dropdown"><a href="inventory.html?category=cars"><svg class="i"><use href="#i-car"/></svg><span>Cars</span></a><a href="inventory.html?category=trucks-trailers"><svg class="i"><use href="#i-truck"/></svg><span>Truck / Trailers</span></a><a href="inventory.html?category=construction"><svg class="i"><use href="#i-excavator"/></svg><span>Construction Equipment</span></a><a href="inventory.html?category=agri"><svg class="i"><use href="#i-tractor"/></svg><span>Agri Equipment</span></a><a href="inventory.html?category=medical"><svg class="i"><use href="#i-medical"/></svg><span>Medical Equipment</span></a></div>
+    </div>
+    <a href="about.html">About Us</a>
+    <a class="active" href="quote.html">Request a Quotation</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="language" title="Website language"><svg class="i"><use href="#i-globe"/></svg><span>English</span></div>
+</header>
+<section class="page-banner"><div class="banner-inner"><p class="eyebrow">TELL US WHAT YOU NEED</p><h1>Request a Quotation</h1><p class="intro">Complete the form below. Include the inventory reference if you are enquiring about a particular item.</p></div></section>
+<main class="page narrow">
 <form id="quote-form" class="quote-form"><div class="form-grid">
 <label>Company name<input name="company" autocomplete="organization"></label><label>Contact person *<input name="name" required autocomplete="name"></label>
 <label>Email address *<input type="email" name="email" required autocomplete="email"></label><label>Telephone / WhatsApp<input name="phone" autocomplete="tel"></label>
@@ -8,5 +58,19 @@
 <label>Product / equipment<input name="product" id="quote-product" placeholder="Make and model"></label><label>Quantity<input name="quantity" type="number" min="1" value="1"></label>
 <label>Destination port / city<input name="destination"></label><label>Preferred shipping method<select name="shipping"><option value="">Please select</option><option>Sea freight</option><option>Air freight</option><option>Land transport</option><option>Advice requested</option></select></label>
 <label class="full">Message / requirements<textarea name="message" rows="5" placeholder="Please describe your requirements, target price, or questions."></textarea></label>
-</div><button class="btn btn-primary" type="submit">Prepare quotation request →</button><p class="form-note" id="form-note">This starter form opens your email application. Before publishing, replace the recipient email in site.js with your business email, or connect a Google Form for online submissions.</p></form></main>
-<footer class="footer"><a class="footer-brand" href="index.html">SAKIBANA</a><span>Quality assets. Global opportunities.</span><span>© <span id="year"></span> Sakibana</span></footer></body></html>
+</div><button class="btn btn-primary btn-lg" type="submit">Prepare quotation request <svg class="i"><use href="#i-chevron"/></svg></button><p class="form-note" id="form-note">This form opens your email application with your details filled in. Please press “Send” in your email app to complete the request.</p></form>
+</main>
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-about">
+      <a class="footer-logo" href="index.html" aria-label="Sakibana — home"><span class="footer-mark"><img src="assets/logo.png" alt="" width="46" height="43"></span><span>Sakibana</span></a>
+      <p>Quality new and used vehicles, trucks, construction, agricultural and medical equipment — for customers worldwide.</p>
+    </div>
+    <div><h4>Explore</h4><a href="index.html">Home</a><a href="inventory.html">Inventory</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+    <div><h4>Inventory</h4><a href="inventory.html?category=cars">Cars</a><a href="inventory.html?category=trucks-trailers">Truck / Trailers</a><a href="inventory.html?category=construction">Construction Equipment</a><a href="inventory.html?category=agri">Agri Equipment</a><a href="inventory.html?category=medical">Medical Equipment</a></div>
+    <div><h4>Get a price</h4><p>Tell us what you need and where it should go.</p><a class="btn btn-gold btn-sm" href="quote.html">Request a Quotation <svg class="i"><use href="#i-chevron"/></svg></a></div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year">2026</span> Sakibana. All rights reserved.</span><span>Quality assets. Global opportunities.</span></div>
+</footer>
+</body>
+</html>

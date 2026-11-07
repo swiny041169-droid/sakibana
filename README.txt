@@ -69,6 +69,13 @@ SUGGESTED PRE-LAUNCH CHECKLIST
     for the relevant product and destination countries
 [ ] Publish and test the public URL
 
-BRANDING
-The included assets/logo.svg is an editable vector logo concept. You can open it
-in a vector editor or replace it with your finalized brand artwork.
+BRANDING / LOOK
+- assets/logo.png        your gear-S logo (transparent background)
+- assets/favicon.png     browser-tab icon
+- assets/hero.jpg        big photo at the top of the home page
+- assets/cat-*.jpg       the five category photos (replace with your own photos
+                         using the SAME file names, or change the names in data.js)
+- assets/fonts/          Inter font files (so the site needs no outside download)
+- styles.css             colours are at the top (:root) - change them in one place
+Tip: replace the sample category / hero pictures with high-resolution photos of
+your real stock when you have them.

@@ -1,5 +1,5 @@
 /* Sakibana site behaviour. Paste your Web3Forms access key below (see the guide). */
-const WEB3FORMS_KEY = "PASTE_YOUR_ACCESS_KEY_HERE"; // the key is not secret; your email stays private on web3forms.com
+const WEB3FORMS_KEY = "3f2a5561-401f-4316-83c1-88e6d51c7c2f"; // the key is not secret; your email stays private on web3forms.com
 
 function el(id) { return document.getElementById(id); }
 function esc(value="") { return String(value).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c])); }

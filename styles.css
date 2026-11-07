@@ -220,6 +220,10 @@ input,select,textarea{font:inherit}
 .quote-form input,.quote-form select,.quote-form textarea{display:block;margin-top:7px;font-weight:400}
 .quote-form .full{grid-column:1/-1}
 .quote-form button{margin-top:24px}
+.quote-form .btn:disabled{opacity:.6;cursor:wait;transform:none}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.form-note.ok{color:#17703d;font-weight:600;font-size:15px}
+.form-note.error{color:#b3261e;font-weight:600;font-size:15px}
 
 /* =====================================================================
    FOOTER

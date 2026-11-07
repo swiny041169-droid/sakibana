@@ -51,14 +51,14 @@
 </header>
 <section class="page-banner"><div class="banner-inner"><p class="eyebrow">TELL US WHAT YOU NEED</p><h1>Request a Quotation</h1><p class="intro">Complete the form below. Include the inventory reference if you are enquiring about a particular item.</p></div></section>
 <main class="page narrow">
-<form id="quote-form" class="quote-form"><div class="form-grid">
+<form id="quote-form" class="quote-form"><input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><div class="form-grid">
 <label>Company name<input name="company" autocomplete="organization"></label><label>Contact person *<input name="name" required autocomplete="name"></label>
 <label>Email address *<input type="email" name="email" required autocomplete="email"></label><label>Telephone / WhatsApp<input name="phone" autocomplete="tel"></label>
 <label>Country *<input name="country" required autocomplete="country-name"></label><label>Inventory reference<input name="reference" id="quote-reference" placeholder="e.g. CAR-001"></label>
 <label>Product / equipment<input name="product" id="quote-product" placeholder="Make and model"></label><label>Quantity<input name="quantity" type="number" min="1" value="1"></label>
 <label>Destination port / city<input name="destination"></label><label>Preferred shipping method<select name="shipping"><option value="">Please select</option><option>Sea freight</option><option>Air freight</option><option>Land transport</option><option>Advice requested</option></select></label>
 <label class="full">Message / requirements<textarea name="message" rows="5" placeholder="Please describe your requirements, target price, or questions."></textarea></label>
-</div><button class="btn btn-primary btn-lg" type="submit">Prepare quotation request <svg class="i"><use href="#i-chevron"/></svg></button><p class="form-note" id="form-note">This form opens your email application with your details filled in. Please press “Send” in your email app to complete the request.</p></form>
+</div><button class="btn btn-primary btn-lg" type="submit">Send quotation request <svg class="i"><use href="#i-chevron"/></svg></button><p class="form-note" id="form-note" role="status" aria-live="polite">Your request goes straight to our inbox. We reply by email.</p></form>
 </main>
 <footer class="footer">
   <div class="footer-top">

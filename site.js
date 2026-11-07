@@ -1,5 +1,5 @@
-/* Sakibana site behaviour. Update QUOTATION_EMAIL before launch. */
-const QUOTATION_EMAIL = "YOUR_EMAIL@example.com"; // Replace with your real business email.
+/* Sakibana site behaviour. Paste your Web3Forms access key below (see the guide). */
+const WEB3FORMS_KEY = "PASTE_YOUR_ACCESS_KEY_HERE"; // the key is not secret; your email stays private on web3forms.com
 
 function el(id) { return document.getElementById(id); }
 function esc(value="") { return String(value).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c])); }
@@ -44,14 +44,27 @@ function setupQuoteForm() {
   const params = new URLSearchParams(location.search);
   if (el("quote-reference")) el("quote-reference").value = params.get("ref") || "";
   if (el("quote-product")) el("quote-product").value = params.get("product") || "";
-  form.addEventListener("submit", e => {
+  form.addEventListener("submit", async e => {
     e.preventDefault();
-    if (QUOTATION_EMAIL.includes("YOUR_EMAIL")) { el("form-note").textContent = "Setup required: open site.js and replace YOUR_EMAIL@example.com with your business email, then publish again."; return; }
-    const data = new FormData(form);
-    const subject = encodeURIComponent(`Sakibana quotation request — ${data.get("reference") || data.get("product") || "New inquiry"}`);
-    const body = encodeURIComponent([...data.entries()].map(([k,v]) => `${k}: ${v}`).join("\n"));
-    location.href = `mailto:${QUOTATION_EMAIL}?subject=${subject}&body=${body}`;
-    el("form-note").textContent = "Your email application should open with the inquiry details. Please send the email to complete your request.";
+    const note = el("form-note"), button = form.querySelector("button[type=submit]");
+    note.className = "form-note";
+    if (WEB3FORMS_KEY.includes("PASTE_YOUR")) { note.textContent = "Setup required: open site.js and paste your Web3Forms access key, then upload the file again."; note.classList.add("error"); return; }
+    const data = Object.fromEntries(new FormData(form));
+    data.access_key = WEB3FORMS_KEY;
+    data.from_name = "Sakibana website";
+    data.subject = `Sakibana quotation request — ${data.reference || data.product || "New inquiry"}`;
+    button.disabled = true; note.textContent = "Sending your request…";
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(data) });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok || json.success === false) throw new Error(json.message || "Request failed");
+      form.reset();
+      note.textContent = "Thank you. Your quotation request has been sent. We will reply to you by email.";
+      note.classList.add("ok");
+    } catch (err) {
+      note.textContent = "Sorry, your request could not be sent. Please try again in a moment.";
+      note.classList.add("error");
+    } finally { button.disabled = false; }
   });
 }
 document.addEventListener("DOMContentLoaded", () => {

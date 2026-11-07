@@ -3,15 +3,15 @@
    Colours and fonts are defined once below (":root"). Change them there.
    ===================================================================== */
 
-/* Fonts are stored in assets/fonts (Inter) so the site needs no external download */
-@font-face{font-family:"Inter";font-weight:400;font-style:normal;font-display:swap;src:url(assets/fonts/inter-400.woff2) format("woff2")}
-@font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:swap;src:url(assets/fonts/inter-500.woff2) format("woff2")}
-@font-face{font-family:"Inter";font-weight:600;font-style:normal;font-display:swap;src:url(assets/fonts/inter-600.woff2) format("woff2")}
-@font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:swap;src:url(assets/fonts/inter-700.woff2) format("woff2")}
-@font-face{font-family:"Inter";font-weight:800;font-style:normal;font-display:swap;src:url(assets/fonts/inter-800.woff2) format("woff2")}
-@font-face{font-family:"Inter";font-weight:500;font-style:italic;font-display:swap;src:url(assets/fonts/inter-500-italic.woff2) format("woff2")}
-@font-face{font-family:"Inter";font-weight:600;font-style:italic;font-display:swap;src:url(assets/fonts/inter-600-italic.woff2) format("woff2")}
-@font-face{font-family:"Inter";font-weight:700;font-style:italic;font-display:swap;src:url(assets/fonts/inter-700-italic.woff2) format("woff2")}
+/* Fonts are stored in fonts (Inter) so the site needs no external download */
+@font-face{font-family:"Inter";font-weight:400;font-style:normal;font-display:swap;src:url(inter-400.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:swap;src:url(inter-500.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:600;font-style:normal;font-display:swap;src:url(inter-600.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:swap;src:url(inter-700.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:800;font-style:normal;font-display:swap;src:url(inter-800.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;font-style:italic;font-display:swap;src:url(inter-500-italic.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:600;font-style:italic;font-display:swap;src:url(inter-600-italic.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:700;font-style:italic;font-display:swap;src:url(inter-700-italic.woff2) format("woff2")}
 
 :root{
   --navy:#0b2b5c;        /* main dark blue (headings, label bars, footer) */
@@ -88,7 +88,7 @@ h1,h2,h3,h4{margin:0}
 /* =====================================================================
    HOME — HERO  (photo + text, scales like your design mock-up)
    ===================================================================== */
-.hero{position:relative;display:flex;align-items:center;aspect-ratio:1536/321;min-height:268px;padding:0 var(--pad);background:#cfe3f6 url(assets/hero.jpg) center/cover no-repeat;overflow:hidden}
+.hero{position:relative;display:flex;align-items:center;aspect-ratio:1536/321;min-height:268px;padding:0 var(--pad);background:#cfe3f6 url(hero.jpg) center/cover no-repeat;overflow:hidden}
 .hero-copy{position:relative;z-index:1;max-width:44%}
 .hero h1{font:800 clamp(46px,5.35vw,100px)/1 var(--font);letter-spacing:-.045em;color:var(--navy);margin:0 0 .12em -.04em}
 .hero-sub{margin:0 0 .5em;font:700 italic clamp(19px,1.95vw,36px)/1.2 var(--font);color:#0e2c5e;letter-spacing:-.01em}
@@ -246,7 +246,7 @@ input,select,textarea{font:inherit}
   .hero-sub{font-size:clamp(20px,3vw,28px)}
   .hero-tag{font-size:clamp(15px,2.2vw,19px)}
   .hero .btn-lg{font-size:16px;padding:14px 26px;margin-bottom:6px}
-  .hero-photo{display:block;height:clamp(150px,30vw,300px);background:url(assets/hero.jpg) 82% 100%/auto 100% no-repeat;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 28%);mask-image:linear-gradient(180deg,transparent 0%,#000 28%)}
+  .hero-photo{display:block;height:clamp(150px,30vw,300px);background:url(hero.jpg) 82% 100%/auto 100% no-repeat;-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 28%);mask-image:linear-gradient(180deg,transparent 0%,#000 28%)}
 }
 @media(max-width:1060px){
   .category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}

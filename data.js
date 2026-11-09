@@ -29,7 +29,12 @@ const INVENTORY = [
       "price": "US$13,300",
       "description": "White 2018 BMW X2 compact SUV with a 4-cylinder gasoline engine and automatic transmission. Clean title, listed as fully loaded.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/87y1l0/2018-bmw-x2-87y1l0-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/87y1l0/2018-bmw-x2-87y1l0-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/87y1l0/2018-bmw-x2-87y1l0-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/87y1l0/2018-bmw-x2-87y1l0-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/87y1l0/2018-bmw-x2-87y1l0-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/87y1l0/2018-bmw-x2-87y1l0-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-001",
@@ -64,7 +69,12 @@ const INVENTORY = [
       "price": "US$6,000",
       "description": "Silver 2013 Mercedes-Benz C250 with about 86,000 miles. Reported as bought Certified Pre-Owned and running smoothly. Clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/aq1b49/2013-mercedes-benz-c250-aq1b49-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/aq1b49/2013-mercedes-benz-c250-aq1b49-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/aq1b49/2013-mercedes-benz-c250-aq1b49-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/aq1b49/2013-mercedes-benz-c250-aq1b49-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/aq1b49/2013-mercedes-benz-c250-aq1b49-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/aq1b49/2013-mercedes-benz-c250-aq1b49-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-002",
@@ -99,7 +109,12 @@ const INVENTORY = [
       "price": "US$15,400",
       "description": "Dark gray 2018 Jeep Compass in excellent condition with a clean title. Reported with no accidents and a CARFAX report available.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/asv331/2018-jeep-compass-incredible-condition-your-next-adve-asv331-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/asv331/2018-jeep-compass-incredible-condition-your-next-adve-asv331-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/asv331/2018-jeep-compass-incredible-condition-your-next-adve-asv331-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/asv331/2018-jeep-compass-incredible-condition-your-next-adve-asv331-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/asv331/2018-jeep-compass-incredible-condition-your-next-adve-asv331-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/asv331/2018-jeep-compass-incredible-condition-your-next-adve-asv331-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-003",
@@ -135,7 +150,12 @@ const INVENTORY = [
       "price": "US$19,300",
       "description": "Grey 2019 Audi Q7 Progressive S-Line in excellent condition with 4WD, a 6-cylinder engine and a clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/3sd36e/2019-audi-q7-progressive-s-line-3sd36e-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/3sd36e/2019-audi-q7-progressive-s-line-3sd36e-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/3sd36e/2019-audi-q7-progressive-s-line-3sd36e-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/3sd36e/2019-audi-q7-progressive-s-line-3sd36e-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/3sd36e/2019-audi-q7-progressive-s-line-3sd36e-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/3sd36e/2019-audi-q7-progressive-s-line-3sd36e-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-004",
@@ -171,7 +191,12 @@ const INVENTORY = [
       "price": "US$10,900",
       "description": "2014 Jeep Grand Cherokee Summit with the 5.7L Hemi engine, automatic transmission and a clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4bz66e/2014-jeep-grand-cherokee-summit-4bz66e-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4bz66e/2014-jeep-grand-cherokee-summit-4bz66e-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4bz66e/2014-jeep-grand-cherokee-summit-4bz66e-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4bz66e/2014-jeep-grand-cherokee-summit-4bz66e-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4bz66e/2014-jeep-grand-cherokee-summit-4bz66e-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4bz66e/2014-jeep-grand-cherokee-summit-4bz66e-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-005",
@@ -205,7 +230,12 @@ const INVENTORY = [
       "price": "US$29,000",
       "description": "White 2025 Honda Ridgeline RTL AWD crew cab with very low mileage, sunroof and leather seats. Please note the title is rebuilt.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/75jqhm/2025-honda-ridgeline-awd-sun-roof-cash-price-75jqhm-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/75jqhm/2025-honda-ridgeline-awd-sun-roof-cash-price-75jqhm-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/75jqhm/2025-honda-ridgeline-awd-sun-roof-cash-price-75jqhm-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/75jqhm/2025-honda-ridgeline-awd-sun-roof-cash-price-75jqhm-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/75jqhm/2025-honda-ridgeline-awd-sun-roof-cash-price-75jqhm-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/75jqhm/2025-honda-ridgeline-awd-sun-roof-cash-price-75jqhm-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-006",
@@ -242,7 +272,12 @@ const INVENTORY = [
       "price": "US$28,900",
       "description": "White 2021 Porsche Macan S in excellent condition. Reported as one owner with no accidents and a clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/1834b7/2021-porsche-macan-s-1834b7-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/1834b7/2021-porsche-macan-s-1834b7-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/1834b7/2021-porsche-macan-s-1834b7-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/1834b7/2021-porsche-macan-s-1834b7-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/1834b7/2021-porsche-macan-s-1834b7-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/1834b7/2021-porsche-macan-s-1834b7-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-007",
@@ -279,7 +314,7 @@ const INVENTORY = [
       "price": "US$10,500",
       "description": "Black 2016 Cadillac ATS 4-door sedan with a 2.0L turbo engine, black leather interior and sunroof. Good condition, clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/u10m37/2016-cadillac-u10m37-0-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-008",
@@ -316,7 +351,12 @@ const INVENTORY = [
       "price": "US$15,000",
       "description": "Black 2022 Nissan Altima S with a black interior, 2.5L engine and a clean title. Reported to run and drive well.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/jzfq36/2022-nissan-altima-s-clean-title-low-miles-jzfq36-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/jzfq36/2022-nissan-altima-s-clean-title-low-miles-jzfq36-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/jzfq36/2022-nissan-altima-s-clean-title-low-miles-jzfq36-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/jzfq36/2022-nissan-altima-s-clean-title-low-miles-jzfq36-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/jzfq36/2022-nissan-altima-s-clean-title-low-miles-jzfq36-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/jzfq36/2022-nissan-altima-s-clean-title-low-miles-jzfq36-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-009",
@@ -353,7 +393,12 @@ const INVENTORY = [
       "price": "US$32,000",
       "description": "Black 2017 Toyota Tundra Limited CrewMax 4x4 with the 5.7L V8, regularly serviced, no reported accidents and a clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/j9255n/2017-toyota-tundra-limited-crewmax-4x4-j9255n-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/j9255n/2017-toyota-tundra-limited-crewmax-4x4-j9255n-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/j9255n/2017-toyota-tundra-limited-crewmax-4x4-j9255n-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/j9255n/2017-toyota-tundra-limited-crewmax-4x4-j9255n-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/j9255n/2017-toyota-tundra-limited-crewmax-4x4-j9255n-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/j9255n/2017-toyota-tundra-limited-crewmax-4x4-j9255n-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-010",
@@ -390,7 +435,12 @@ const INVENTORY = [
       "price": "US$14,400",
       "description": "Black 2017 Lexus IS 200t with a turbo 4-cylinder (241 hp), sunroof and adaptive cruise control. Please note the title is rebuilt.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/ftk0z4/2017-lexus-is-200t-87k-miles-ftk0z4-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/ftk0z4/2017-lexus-is-200t-87k-miles-ftk0z4-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/ftk0z4/2017-lexus-is-200t-87k-miles-ftk0z4-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/ftk0z4/2017-lexus-is-200t-87k-miles-ftk0z4-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/ftk0z4/2017-lexus-is-200t-87k-miles-ftk0z4-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/ftk0z4/2017-lexus-is-200t-87k-miles-ftk0z4-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "CAR-011",
@@ -427,7 +477,12 @@ const INVENTORY = [
       "price": "US$67,000 (or best offer)",
       "description": "Package of three 2016 sleeper trucks (two Volvo and one Freightliner Cascadia) with a 2015 flatbed trailer. Maintenance is reported as complete and the units are ready to drive. Clean titles. Each unit can also be sold separately.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/53v0wp/2016-for-sale-3-sleeper-trucks-plus-a-trailer-53v0wp-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/53v0wp/2016-for-sale-3-sleeper-trucks-plus-a-trailer-53v0wp-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/53v0wp/2016-for-sale-3-sleeper-trucks-plus-a-trailer-53v0wp-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/53v0wp/2016-for-sale-3-sleeper-trucks-plus-a-trailer-53v0wp-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/53v0wp/2016-for-sale-3-sleeper-trucks-plus-a-trailer-53v0wp-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/53v0wp/2016-for-sale-3-sleeper-trucks-plus-a-trailer-53v0wp-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "TRK-001",
@@ -462,7 +517,9 @@ const INVENTORY = [
       "price": "US$32,000",
       "description": "Purple 2016 International Navistar N13 sleeper with a 450 hp engine and Eaton Fuller 13-speed transmission. Described as ready to work. Clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/0jz510/2016-trucks-0jz510-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/0jz510/2016-trucks-0jz510-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/0jz510/2016-trucks-0jz510-2-1200x900.jpg"
       ],
       "specs": {
           "Reference": "TRK-002",
@@ -497,7 +554,12 @@ const INVENTORY = [
       "price": "US$9,000 (as listed; confirm whether per truck)",
       "description": "Two white 2015 Volvo VNL day cab trucks, formerly used on light-duty work for a FedEx contractor with regular maintenance. Reported to run well. Clean title.",
       "photos": [
-          "placeholder.svg"
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4vfh11/2015-volvo-vnl-trucks-for-sale-4vfh11-0-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4vfh11/2015-volvo-vnl-trucks-for-sale-4vfh11-1-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4vfh11/2015-volvo-vnl-trucks-for-sale-4vfh11-2-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4vfh11/2015-volvo-vnl-trucks-for-sale-4vfh11-3-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4vfh11/2015-volvo-vnl-trucks-for-sale-4vfh11-4-1200x900.jpg",
+          "https://img-exportusa.s3-accelerate.amazonaws.com/api/4vfh11/2015-volvo-vnl-trucks-for-sale-4vfh11-5-1200x900.jpg"
       ],
       "specs": {
           "Reference": "TRK-003",

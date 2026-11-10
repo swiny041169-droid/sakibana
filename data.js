@@ -1,249 +1,14 @@
 /* EDIT THIS FILE to add, remove, or update Sakibana listings.
    Duplicate one item object, give it a unique id, and update its details and photos.
    Photo paths can be local files such as my-car-1.jpg. */
-/* "icon" = small icon name (car, truck, excavator, tractor, medical)
+/* "icon" = small icon name (car, truck, excavator, tractor, tyre)
    "image" = the photo shown on the home page category card */
 const CATEGORIES = [
   { id: "cars", name: "Cars", icon: "car", image: "cat-cars.jpg", description: "New and used passenger vehicles" },
   { id: "trucks-trailers", name: "Truck / Trailers", icon: "truck", image: "cat-trucks.jpg", description: "Commercial trucks and trailers" },
   { id: "construction", name: "Construction Equipment", icon: "excavator", image: "cat-construction.jpg", description: "Excavators, loaders, cranes and more" },
   { id: "agri", name: "Agri Equipment", icon: "tractor", image: "cat-agri.jpg", description: "Tractors and agricultural machinery" },
-  { id: "medical", name: "Medical Equipment", icon: "medical", image: "cat-medical.jpg", description: "Diagnostic and hospital equipment" },
-  {
-      "id": "AGRI-001",
-      "category": "agri",
-      "title": "Kubota Tractor KL460H, 46 HP",
-      "make": "Kubota",
-      "model": "KL460H",
-      "year": "",
-      "condition": "Used",
-      "mileage": "4,775 hours",
-      "fuel": "",
-      "transmission": "",
-      "engine": "46 HP",
-      "location": "Itakura, Gunma, Japan",
-      "availability": "Contact us to confirm availability",
-      "price": "¥1,300,000 (tax included)",
-      "description": "Used Kubota KL460H tractor rated at 46 HP with 4,775 operating hours. Available from our stock in Gunma, Japan.",
-      "photos": [
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/7092f6f67b86db3ab33252bf4179222f-13.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810487_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810477_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810478_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810481_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810482_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810479_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810480_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1810483_0-tile.jpg"
-      ],
-      "specs": {
-          "Reference": "AGRI-001",
-          "Manufacturer": "Kubota",
-          "Model": "KL460H",
-          "Type": "Tractor",
-          "Horsepower": "46 HP",
-          "Operating hours": "4,775 hours",
-          "Condition": "Used",
-          "Location": "Itakura, Gunma, Japan",
-          "Price (tax included)": "¥1,300,000"
-      }
-  },
-  {
-      "id": "AGRI-002",
-      "category": "agri",
-      "title": "Yanmar Tractor EF226, 26 HP",
-      "make": "Yanmar",
-      "model": "EF226",
-      "year": "",
-      "condition": "Used",
-      "mileage": "1,189 hours",
-      "fuel": "",
-      "transmission": "",
-      "engine": "26 HP",
-      "location": "Itakura, Gunma, Japan",
-      "availability": "Contact us to confirm availability",
-      "price": "¥1,400,000 (tax included)",
-      "description": "Used Yanmar EF226 tractor rated at 26 HP with 1,189 operating hours. Available from our stock in Gunma, Japan.",
-      "photos": [
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/7092f6f67b86db3ab33252bf4179222f-16.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__97984526_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__97984529_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__97984528_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__97984539_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__97984540_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__97984538_0-tile.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__97984531_0-tile.jpg"
-      ],
-      "specs": {
-          "Reference": "AGRI-002",
-          "Manufacturer": "Yanmar",
-          "Model": "EF226",
-          "Type": "Tractor",
-          "Horsepower": "26 HP",
-          "Operating hours": "1,189 hours",
-          "Condition": "Used",
-          "Location": "Itakura, Gunma, Japan",
-          "Price (tax included)": "¥1,400,000"
-      }
-  },
-  {
-      "id": "AGRI-003",
-      "category": "agri",
-      "title": "Iseki Tractor TG53F-SGVWLCY, 53 HP",
-      "make": "Iseki",
-      "model": "TG53F-SGVWLCY",
-      "year": "",
-      "condition": "Used",
-      "mileage": "2,082 hours",
-      "fuel": "",
-      "transmission": "",
-      "engine": "53 HP",
-      "location": "Tatebayashi, Gunma, Japan",
-      "availability": "Contact us to confirm availability",
-      "price": "¥800,000 (tax included)",
-      "description": "Used Iseki TG53F tractor (model code SGVWLCY) rated at 53 HP with 2,082 operating hours. Available from our stock in Gunma, Japan.",
-      "photos": [
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/7092f6f67b86db3ab33252bf4179222f-1.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967558_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967560_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967561_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967571_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967572_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967573_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967574_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967563_0-tile.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__98967569_0-tile.jpg"
-      ],
-      "specs": {
-          "Reference": "AGRI-003",
-          "Manufacturer": "Iseki",
-          "Model": "TG53F-SGVWLCY",
-          "Type": "Tractor",
-          "Horsepower": "53 HP",
-          "Operating hours": "2,082 hours",
-          "Condition": "Used",
-          "Location": "Tatebayashi, Gunma, Japan",
-          "Price (tax included)": "¥800,000"
-      }
-  },
-  {
-      "id": "AGRI-004",
-      "category": "agri",
-      "title": "Mitsubishi Tractor MT165, 16 HP",
-      "make": "Mitsubishi",
-      "model": "MT165",
-      "year": "",
-      "condition": "Used",
-      "mileage": "1,726 hours",
-      "fuel": "",
-      "transmission": "",
-      "engine": "16 HP",
-      "location": "Itakura, Gunma, Japan",
-      "availability": "Contact us to confirm availability",
-      "price": "¥160,000 (tax included)",
-      "description": "Used Mitsubishi MT165 compact tractor rated at 16 HP with 1,726 operating hours. Available from our stock in Gunma, Japan.",
-      "photos": [
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/7092f6f67b86db3ab33252bf4179222f-24.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946458_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946460_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946470_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946469_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946465_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946466_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946468_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/08/S__92946464_0-tile.jpg"
-      ],
-      "specs": {
-          "Reference": "AGRI-004",
-          "Manufacturer": "Mitsubishi",
-          "Model": "MT165",
-          "Type": "Tractor",
-          "Horsepower": "16 HP",
-          "Operating hours": "1,726 hours",
-          "Condition": "Used",
-          "Location": "Itakura, Gunma, Japan",
-          "Price (tax included)": "¥160,000"
-      }
-  },
-  {
-      "id": "AGRI-005",
-      "category": "agri",
-      "title": "Kubota Combine Harvester ER467 SD4MSQW, 4-Row",
-      "make": "Kubota",
-      "model": "ER467 SD4MSQW",
-      "year": "",
-      "condition": "Used",
-      "mileage": "946 hours",
-      "fuel": "",
-      "transmission": "",
-      "engine": "",
-      "location": "Itakura, Gunma, Japan",
-      "availability": "Contact us to confirm availability",
-      "price": "¥2,200,000 (tax included)",
-      "description": "Used Kubota ER467 combine harvester (model SD4MSQW) with 4-row cutting and 946 operating hours. Available from our stock in Gunma, Japan.",
-      "photos": [
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/7092f6f67b86db3ab33252bf4179222f-5.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859614_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859621_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859622_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859617_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859609_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859604_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859608_0-tile.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859606_0-tile.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/11/S__1859620_0-tile.jpg"
-      ],
-      "specs": {
-          "Reference": "AGRI-005",
-          "Manufacturer": "Kubota",
-          "Model": "ER467 SD4MSQW",
-          "Type": "Combine harvester (4-row cutting)",
-          "Operating hours": "946 hours",
-          "Condition": "Used",
-          "Location": "Itakura, Gunma, Japan",
-          "Price (tax included)": "¥2,200,000",
-          "Cutting width": "4 rows"
-      }
-  },
-  {
-      "id": "AGRI-006",
-      "category": "agri",
-      "title": "Kubota Combine Harvester ARN327 ADXW, 3-Row",
-      "make": "Kubota",
-      "model": "ARN327 ADXW",
-      "year": "",
-      "condition": "Used",
-      "mileage": "524 hours",
-      "fuel": "",
-      "transmission": "",
-      "engine": "",
-      "location": "Itakura, Gunma, Japan",
-      "availability": "Contact us to confirm availability",
-      "price": "¥850,000 (tax included)",
-      "description": "Used Kubota ARN327 combine harvester (model ADXW) with 3-row cutting and 524 operating hours. Available from our stock in Gunma, Japan.",
-      "photos": [
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/7092f6f67b86db3ab33252bf4179222f-23.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851440_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851452_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851453_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851448_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851436_0.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851435_0-tile.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851443_0-tile.jpg",
-          "https://hakuryu-s.co.jp/db/wp-content/uploads/2026/10/S__1851451_0-tile.jpg"
-      ],
-      "specs": {
-          "Reference": "AGRI-006",
-          "Manufacturer": "Kubota",
-          "Model": "ARN327 ADXW",
-          "Type": "Combine harvester (3-row cutting)",
-          "Operating hours": "524 hours",
-          "Condition": "Used",
-          "Location": "Itakura, Gunma, Japan",
-          "Price (tax included)": "¥850,000",
-          "Cutting width": "3 rows"
-      }
-  }
+  { id: "tyres", name: "Japanese Eco Tyres", icon: "tyre", image: "cat-tyres.jpg", description: "Fuel-saving summer tyres from leading Japanese brands" }
 ];
 
 const INVENTORY = [
@@ -1133,6 +898,166 @@ const INVENTORY = [
           "Location": "Tatebayashi, Gunma, Japan",
           "Price (tax included)": "¥1,550,000",
           "Equipment": "Buckwheat and soybean kit"
+      }
+  },
+  {
+      "id": "TYR-001",
+      "category": "tyres",
+      "title": "Bridgestone Ecopia H/L001",
+      "make": "Bridgestone",
+      "model": "Ecopia H/L001",
+      "year": "",
+      "condition": "New",
+      "mileage": "Summer eco tyre",
+      "fuel": "",
+      "transmission": "",
+      "engine": "",
+      "location": "",
+      "availability": "Contact us for sizes, stock and prices",
+      "price": "Price upon request",
+      "description": "Bridgestone Ecopia H/L001 fuel-saving summer tyre. Its lower rolling resistance design helps reduce fuel use, NanoPro-Tech helps reduce heat generation, and the reinforced sidewall supports a comfortable, quiet ride. See the PDF guides for more details.",
+      "photos": [
+          "tyre-bridgestone-ecopia.jpg"
+      ],
+      "fit": "contain",
+      "documents": [
+          {
+              "label": "Eco-Tyre Fuel Savings Analysis",
+              "file": "Eco-Tire_Fuel_Savings_Analysis.pdf"
+          },
+          {
+              "label": "Japanese Eco Summer Tyres guide",
+              "file": "Japanese_EcoTyres_English.pdf"
+          }
+      ],
+      "specs": {
+          "Reference": "TYR-001",
+          "Brand": "Bridgestone",
+          "Model": "Ecopia H/L001",
+          "Type": "Summer eco tyre",
+          "Origin": "Japanese brand",
+          "Key features": "Lower rolling resistance design, NanoPro-Tech, reinforced sidewall",
+          "Condition": "New"
+      }
+  },
+  {
+      "id": "TYR-002",
+      "category": "tyres",
+      "title": "Dunlop ECO EC201",
+      "make": "Dunlop",
+      "model": "ECO EC201",
+      "year": "",
+      "condition": "New",
+      "mileage": "Summer eco tyre",
+      "fuel": "",
+      "transmission": "",
+      "engine": "",
+      "location": "",
+      "availability": "Contact us for sizes, stock and prices",
+      "price": "Price upon request",
+      "description": "Dunlop ECO EC201 eco summer tyre from the Japanese Dunlop range. Contact us for available sizes and stock. See the PDF guides for more details.",
+      "photos": [
+          "tyre-dunlop-ec201.jpg"
+      ],
+      "fit": "contain",
+      "documents": [
+          {
+              "label": "Eco-Tyre Fuel Savings Analysis",
+              "file": "Eco-Tire_Fuel_Savings_Analysis.pdf"
+          },
+          {
+              "label": "Japanese Eco Summer Tyres guide",
+              "file": "Japanese_EcoTyres_English.pdf"
+          }
+      ],
+      "specs": {
+          "Reference": "TYR-002",
+          "Brand": "Dunlop",
+          "Model": "ECO EC201",
+          "Type": "Summer eco tyre",
+          "Origin": "Japanese brand",
+          "Key features": "Eco-focused summer tyre",
+          "Condition": "New"
+      }
+  },
+  {
+      "id": "TYR-003",
+      "category": "tyres",
+      "title": "Toyo Tires NanoEnergy 3",
+      "make": "Toyo Tires",
+      "model": "NanoEnergy 3",
+      "year": "",
+      "condition": "New",
+      "mileage": "Summer eco tyre",
+      "fuel": "",
+      "transmission": "",
+      "engine": "",
+      "location": "",
+      "availability": "Contact us for sizes, stock and prices",
+      "price": "Price upon request",
+      "description": "Toyo NanoEnergy 3 summer tyre designed for fuel saving, longer tread life and a comfortable ride. See the PDF guides for more details.",
+      "photos": [
+          "tyre-toyo-nanoenergy3.jpg"
+      ],
+      "fit": "contain",
+      "documents": [
+          {
+              "label": "Eco-Tyre Fuel Savings Analysis",
+              "file": "Eco-Tire_Fuel_Savings_Analysis.pdf"
+          },
+          {
+              "label": "Japanese Eco Summer Tyres guide",
+              "file": "Japanese_EcoTyres_English.pdf"
+          }
+      ],
+      "specs": {
+          "Reference": "TYR-003",
+          "Brand": "Toyo Tires",
+          "Model": "NanoEnergy 3",
+          "Type": "Summer eco tyre",
+          "Origin": "Japanese brand",
+          "Key features": "Fuel saving, longer lasting, comfort",
+          "Condition": "New"
+      }
+  },
+  {
+      "id": "TYR-004",
+      "category": "tyres",
+      "title": "Yokohama DNA ECOS",
+      "make": "Yokohama",
+      "model": "DNA ECOS",
+      "year": "",
+      "condition": "New",
+      "mileage": "Summer eco tyre",
+      "fuel": "",
+      "transmission": "",
+      "engine": "",
+      "location": "",
+      "availability": "Contact us for sizes, stock and prices",
+      "price": "Price upon request",
+      "description": "Yokohama DNA ECOS eco summer tyre from the Japanese Yokohama range. Contact us for available sizes and stock. See the PDF guides for more details.",
+      "photos": [
+          "tyre-yokohama-dna-ecos.jpg"
+      ],
+      "fit": "contain",
+      "documents": [
+          {
+              "label": "Eco-Tyre Fuel Savings Analysis",
+              "file": "Eco-Tire_Fuel_Savings_Analysis.pdf"
+          },
+          {
+              "label": "Japanese Eco Summer Tyres guide",
+              "file": "Japanese_EcoTyres_English.pdf"
+          }
+      ],
+      "specs": {
+          "Reference": "TYR-004",
+          "Brand": "Yokohama",
+          "Model": "DNA ECOS",
+          "Type": "Summer eco tyre",
+          "Origin": "Japanese brand",
+          "Key features": "Eco-focused summer tyre",
+          "Condition": "New"
       }
   }
 ];

@@ -144,6 +144,19 @@ h1,h2,h3,h4{margin:0}
 .product-meta{margin:4px 0;font-size:13.5px;color:var(--muted)}
 .price{margin:8px 0 14px;font-weight:800;color:var(--gold-dark)}
 .product-info .text-link{margin-top:auto}
+.product-links{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:auto}
+.product-info .product-links .text-link{margin-top:0}
+.doc-tag{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:99px;background:var(--pale);border:1px solid var(--line);font-size:12.5px;font-weight:700;color:var(--navy);transition:background .15s,color .15s}
+.doc-tag .i{width:1.1em;height:1.1em;color:var(--gold-dark)}
+.doc-tag:hover{background:var(--navy);color:#fff}.doc-tag:hover .i{color:#fff}
+.product-card.contain .product-photo{background:#fff}
+.product-card.contain .product-photo img{object-fit:contain;padding:10px}
+.doc-section{margin-top:34px}
+.doc-section h2{margin:0 0 12px;font:800 25px var(--font);letter-spacing:-.02em;color:var(--navy)}
+.doc-list{display:flex;flex-wrap:wrap;gap:12px}
+.doc-btn{display:inline-flex;align-items:center;gap:10px;padding:14px 18px;border-radius:12px;background:#fff;border:1.5px solid var(--navy);font-weight:700;color:var(--navy);transition:background .15s,color .15s}
+.doc-btn .i{color:var(--gold-dark)}.doc-btn small{display:block;font-weight:500;color:var(--muted);font-size:12.5px}
+.doc-btn:hover{background:var(--navy);color:#fff}.doc-btn:hover .i,.doc-btn:hover small{color:#fff}
 .text-link{font-weight:700;font-size:14px;color:var(--blue)}
 .text-link:hover{color:var(--navy);text-decoration:underline}
 .eyebrow{margin:0 0 10px;font-size:12px;font-weight:800;letter-spacing:.16em;color:var(--gold-dark);text-transform:uppercase}

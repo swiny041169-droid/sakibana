@@ -874,7 +874,7 @@ const INVENTORY = [
       "engine": "",
       "location": "Tatebayashi, Gunma, Japan",
       "availability": "Contact us to confirm availability",
-      "price": "¥1,550,000 ",
+      "price": "US$ 18,900 ",
       "description": "Used Iseki HC1000 general-purpose combine harvester with buckwheat and soybean kit and 1,086 operating hours. ",
       "photos": [
           "agri-008-1.jpg",
@@ -896,7 +896,7 @@ const INVENTORY = [
           "Operating hours": "1,086 hours",
           "Condition": "Used",
           "Location": "Tatebayashi, Gunma, Japan",
-          "Price ": "¥1,550,000",
+          "Price ": "US$ 18,900",
           "Equipment": "Buckwheat and soybean kit"
       }
   },
